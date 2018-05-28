@@ -8,8 +8,9 @@
         }],
         "arrow-body-style": ["error", "always"],
         "no-shadow": ["error", {
-            "allow": ["err", "error"]
+            "allow": ["err", "error", "reply"]
         }],
-        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "spaced-comment": ["error", "always", { "exceptions": ["language=Oracle"] }]
     }
 }
