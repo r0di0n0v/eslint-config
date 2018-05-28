@@ -3,6 +3,6 @@ eslint config based on airbnb-base
 
 linebreak-style:
 
-> linebreak-style: ["error", "unix"]
+> "linebreak-style": ["error", "unix"],
 
-> linebreak-style: ["error", "windows"]
+> "linebreak-style": ["error", "windows"],
