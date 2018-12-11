@@ -6,7 +6,6 @@
             "array": false,
             "object": true
         }],
-        "arrow-body-style": ["error", "always"],
         "no-shadow": ["error", {
             "allow": ["err", "error", "reply"]
         }],
