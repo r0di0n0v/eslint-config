@@ -10,6 +10,7 @@
             "allow": ["err", "error", "reply"]
         }],
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-        "spaced-comment": ["error", "always", { "exceptions": ["language=Oracle"] }]
+        "spaced-comment": ["error", "always", { "exceptions": ["language=Oracle"] }],
+        "no-use-before-define": ["error", { "functions": false }]
     }
 }
